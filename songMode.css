@@ -1,0 +1,120 @@
+
+.song-mode{
+    width: 375px;
+    color: white;
+
+}
+/*############ Album image container ###########*/
+.song-mode .album-image-container{
+    padding-inline: 25px;
+    padding-top: 20px;
+
+    margin-bottom: 30px;
+
+
+}
+
+.song-mode .album-image-container img{
+  
+    width: 100%;
+
+
+}
+
+/*############ song info container ###########*/
+
+.song-mode .song-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.song-mode .song-info-container .song-info{
+    text-align: center;
+
+}
+
+ .upper-text .heart{
+    font-size: 20px;
+}
+
+.lower-text{
+    opacity: 0.5;
+}
+
+
+.heart{
+    opacity: 0.5;
+}
+
+
+
+.song-mode .time-line-container{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+    
+
+}
+
+.song-mode .time-line-container .outer-time-line{
+   
+   background-color: #101141;
+   border-radius: 5px;
+   height: 10px;
+   width: 100%;
+}
+
+
+
+ .song-mode .time-line-container .inner-time-line{
+   
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 10px;
+    width: 30%;
+   
+ 
+ 
+ }
+ 
+
+ /* ############# controls **/
+
+ .song-mode .controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ 
+ .song-mode .controls .material-icons{
+    font-size: 40px;
+ }
+
+
+
+ .song-mode .controls .play{
+    font-size: 80px;
+ }
+
+
+ .song-mode .controls .previous{
+    margin-right: -40px;
+ }
+
+
+ .song-mode .controls .next{
+    margin-right: -40px;
+    transform: rotate(140deg);
+ }
+
+
+
+
+
+
